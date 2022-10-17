@@ -1,0 +1,10 @@
+.Button-typescript {
+  margin: 5rem;
+  padding: 2rem;
+  font-size: large;
+  color: #007ACD;
+  font-weight: bold;
+  border-radius: 10px;
+  border-color: #083061;
+  border-width: 10px;
+}
