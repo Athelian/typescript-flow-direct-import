@@ -1,0 +1,10 @@
+.Button-flow {
+  margin: 5rem;
+  padding: 2rem;
+  font-size: large;
+  color: #BC803E;
+  font-weight: bold;
+  border-radius: 10px;
+  border-color: #C09B37;
+  border-width: 10px;
+}
