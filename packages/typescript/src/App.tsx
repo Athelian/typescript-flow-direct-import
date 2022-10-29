@@ -8,8 +8,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <ButtonTS/>
-        <ButtonJS/>
+        <div>
+          <ButtonTS />
+          <ButtonJS />
+        </div>
       </header>
     </div>
   );

@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import ButtonTS from "@app/typescript/src/components/Button.tsx"
+import ButtonTS from "@app/typescript/src/components/Button";
 import ButtonJS from "./components/Button";
 import logo from "./logo.webp";
 import "./App.css";
@@ -12,8 +12,10 @@ function App(): React$Element<"div"> {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <ButtonJS/>
-        <ButtonTS/>
+        <div>
+          <ButtonJS />
+          <ButtonTS />
+        </div>
       </header>
     </div>
   );
