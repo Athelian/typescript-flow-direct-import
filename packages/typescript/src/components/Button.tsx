@@ -1,7 +1,11 @@
-import "./Button.css"
+import "./Button.css";
 
-const Button = () => {
-  return <button className="Button-typescript">Hey, I am Typescript</button>;
+type Props = {
+  text: string;
+}
+
+export const Button = ({ text }: Props) => {
+  return <button className="Button-typescript">{text}</button>;
 };
 
 export default Button;
