@@ -4,7 +4,11 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "build:flowtypes": "find . -type f -not -path './node_modules/*' -not -path './packages/typescript/node_modules/*' -not -path './packages/flow/node_modules/*' -name '*.d.ts' -exec sh -c 'yarn flowgen --add-flow-header $1 -o ${1%.*.*}.tsx.flow' _ '{}' \\;"
+  },
   "devDependencies": {
+    "flowgen": "^1.20.1",
     "lerna": "^6.0.1"
   }
 }

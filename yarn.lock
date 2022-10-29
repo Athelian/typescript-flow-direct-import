@@ -6195,7 +6195,7 @@ flow-typed@^4.0.0-1:
     which "^2.0.2"
     yargs "^15.1.0"
 
-flowgen@^1.10.0:
+flowgen@^1.10.0, flowgen@^1.20.1:
   version "1.20.1"
   resolved "https://registry.yarnpkg.com/flowgen/-/flowgen-1.20.1.tgz#336871d59a36980fbe2c3de553bd558f06a46e24"
   integrity sha512-Wus3KAhsOF7CiZGkBKZawf0AJXe06Wot6UGQt7h9QS6MBtBkFgG30wTAgpy1byA3FKYb059vO341XtN8LUhenQ==
