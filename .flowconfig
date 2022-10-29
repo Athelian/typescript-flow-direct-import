@@ -1,4 +1,6 @@
 [ignore]
+<PROJECT_ROOT>/node_modules/eslint-plugin-react
+<PROJECT_ROOT>/node_modules/resolve
 
 [include]
 
